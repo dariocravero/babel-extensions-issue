@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+BIN=./node_modules/.bin
+
+$BIN/babel $1 --ignore 'node_modules/**' --out-dir . .
